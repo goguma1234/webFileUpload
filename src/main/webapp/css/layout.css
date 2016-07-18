@@ -1,0 +1,195 @@
+@CHARSET "UTF-8";
+body{
+	font-family:sans-serif,"dotum";
+	font-size:15px;
+	color:navy;
+}
+#wrap{
+	margin:0 auto;
+	width:1024px;
+	/*wrap은 웹페이지 전체 컨텐츠를 모두 감싸는 역할. 이렇게 정의하면
+	감싼 부분이 중앙 정렬이 됨*/
+}
+img{
+	border:0;/*이미지에 링크를 걸면 테두리가 생기는데 이를 없애자*/	
+}
+.clear{
+	clear:both;/*불필요하게 교차된 박스를 분리해주는 역할을 한다.*/
+}
+header{
+	padding:20px;/*안쪽 여백 20px*/
+	margin-top:10px;/*바깥 탑 여백 10px*/
+	border:1px solid rgba(202,202,102,1);
+	border-radius:5px;/*테두리 모서리를 둥글게*/	
+}
+/*네비게이션 영역. 다른 페이지로 이동할 수 있는 링크가 모여있다.*/
+nav{
+	background-color:rgba(225,232,247,1);/*배경색*/
+	padding:5px;/*안쪽 여백*/
+	margin:5px 0;/*상하 5px, 좌우 0*/
+	height:30px;/*높이*/
+	border-radius:5px;
+}
+nav ul{
+	list-style-type:none;/*리스트 스타일을 제거*/
+	margin:0;
+	padding:0;
+}
+nav ul li{
+	float:left;/*메뉴가 좌-> 우로 배치되도록*/
+	padding:0 5px 0 0;/*top, right(5px), bottom, left여백*/
+}
+nav ul li a{
+	display:block;/*링크 걸린 부분에 블럭을 지정하여 공간 확보*/
+	padding:1px 20px 3px 20px;
+	text-decoration:none;/*링크 부분에 밑줄 없애기*/
+	color:rgba(51,51,51,1);
+}
+nav ul li a:hover{
+	background-color:rgba(102,153,255,1);/*마우스오버시 배경색 변경*/
+	color:rgba(255,255,255,1);/*글자색*/
+	border-radius:5px;
+}
+/*-------------------------------------------*/
+article{
+	border:1px solid rgba(225,225,204,1);
+	border-radius:5px;
+	margin:5px 0;
+	font-size:14px;
+	padding:15px;
+	float:left;
+	width:74%;
+	height:800px;
+	overflow: scroll;	
+}
+article hgroup{
+	padding:5px;
+}
+article hgroup h1, article hgroup h2{
+	margin:0;
+	padding:2px 0;
+}
+article hgroup h1{
+	font-size:22px;
+}
+article hgroup h2{
+	font-size:18px;
+}
+section{
+	float:left;
+	width:300px;
+	padding:10px;
+	margin:10px;
+	border:1px solid rgba(102,102,102,1);
+	border-radius:5px;
+	word-wrap:break-word;/*박스 길이보다 긴 글자는 다음 줄로 처리*/
+}
+section h2{
+	font-size:15px;
+	padding:0 0 10px 0;/*하단 여백 10px*/
+	margin:0;
+	color:rgba(245,0,0,1);
+}
+
+/*-------------------------------------------*/
+aside{
+	float:right;
+	width:20%;
+	margin:5px 0;
+	padding:7px;
+	border-radius:5px;
+	height:800px;
+	border:1px solid rgba(225,212,247,1);
+}
+aside nav{
+	border:none;
+	background:none;
+}
+aside nav ul{
+	list-style-type:none;
+}
+aside nav ul li{
+	padding:0 5px;
+}
+aside nav ul li a{
+	width:170px;
+	padding:5px 0;
+}
+aside nav ul li a:hover{
+	background-color:transparent;/*마우스오버시 배경색을 투명하게*/
+	color:red;
+	font-weight:bold;
+}
+
+
+/*-------------------------------------------*/
+footer{
+	background-color:rgba(232,255,244,1);
+	border:1px solid rgba(202,202,102,1);
+	border-radius:5px;
+	margin:5px 0;
+	padding:10px 20px;
+	font-size:13px;
+}
+
+/*표준 링크 스타일*/
+a:link{
+	text-decoration:none;
+	color:#000000;
+}
+a:visited{
+	text-decoration:none;
+	color:green;
+}
+a:hover{
+	text-decoration:none;
+	color:maroon;
+	font-size:15px;
+}
+/*입력 양식 스타일*/
+.box{
+	border: 1px solid #808040;
+}
+.outline{
+	border-top:4px double navy;
+	border-bottom:4px double navy;
+}
+.m1{
+	background-color:#d2e8e0;
+	border-bottom:1px dotted navy;
+}
+table{
+	border-collapse:collapse;	
+}
+table th{
+	background-color:#ccffee;
+}
+table td{
+	padding-left:7px;
+	text-align:left;
+	height:25px;
+}
+table.cssfrm th{
+	background-color:#f4eec4;
+}
+
+.a{
+	color:red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

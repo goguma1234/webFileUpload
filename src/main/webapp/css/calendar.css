@@ -1,0 +1,21 @@
+@CHARSET "UTF-8";
+
+td, th{
+		font-size:10pt;
+		text-align:center;
+		padding:0;
+	}
+	table{
+		border-collapse:collapse;
+	}
+	th{
+		background-color:#ccccff;
+		height:30px;
+	}
+	div#cal{
+		margin-top:20px;
+		margin-left:10px;
+		/*border: 1px solid silver;*/
+		width:100%;
+		visibility:hidden;
+	}
