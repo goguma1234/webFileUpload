@@ -28,6 +28,6 @@ public class FileDTO {
 		this.fileone = fileone;
 	}
 
-	////Å×½ºÆ® github
+	
 	
 }
